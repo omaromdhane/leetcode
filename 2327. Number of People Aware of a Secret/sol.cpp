@@ -14,7 +14,6 @@ public:
                     people[j]+=people[i]%mod;
                 }
             }
-            cout << res << " " << people[i] << " " << people[min(i+forget,n-1)] << endl;
         }
         return (int)(res % mod);
     }
